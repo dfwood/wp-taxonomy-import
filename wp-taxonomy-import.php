@@ -132,4 +132,4 @@ class TaxonomyImport {
 
 }
 
-new TaxonomyImport();
+TaxonomyImport::initialize();
