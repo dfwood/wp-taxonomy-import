@@ -51,7 +51,7 @@ class TaxonomyImport {
 		add_management_page(
 			esc_html__( 'Taxonomy Term Import', 'dfwood-wp-taxonomy-import' ),
 			esc_html__( 'Taxonomy Import', 'dfwood-wp-taxonomy-import' ),
-			'manage_options',
+			apply_filters( 'dfwood_wp_taxonomy_import_permission', 'manage_options' ),
 			self::$menuSlug,
 			[ __CLASS__, '_adminPage' ]
 		);
