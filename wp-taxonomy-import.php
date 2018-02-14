@@ -13,6 +13,10 @@
 
 namespace dfwood\WordPress;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
+}
+
 /**
  * Class TaxonomyImport
  * @author David Wood <david@davidwood.ninja>

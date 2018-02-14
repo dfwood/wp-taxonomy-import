@@ -13,13 +13,5 @@
   ],
   "support": {
     "source": "https://github.com/dfwood/wp-taxonomy-import"
-  },
-  "autoload": {
-    "files": [
-      "bootstrap.php"
-    ],
-    "psr-4": {
-      "dfwood\\WordPress\\": ""
-    }
   }
 }
