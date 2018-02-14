@@ -1,0 +1,25 @@
+{
+  "name": "dfwood/wp-taxonomy-import",
+  "description": "A small WordPress plugin that allows easily importing taxonomy terms from a WordPress REST API endpoint.",
+  "license": "GPL-3.0+",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/dfwood/wp-taxonomy-import",
+  "authors": [
+    {
+      "name": "David Wood",
+      "email": "david@davidwood.ninja",
+      "homepage": "https://davidwood.ninja/"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/dfwood/wp-taxonomy-import"
+  },
+  "autoload": {
+    "files": [
+      "bootstrap.php"
+    ],
+    "psr-4": {
+      "dfwood\\WordPress\\": ""
+    }
+  }
+}
